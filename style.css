@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+#desktop{
+  margin: 0 auto;
+
+  width: 1024px;
+  height: 790px;
+}
+
+#main{
+  margin: 64px auto;
+
+  width: 626px;
+  height: 486px;
+
+  font-weight: normal;
+
+}
+
+p , a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main #titulo{
+  margin: 32px auto 16px;
+
+  width: 494px;
+  height: 40px;
+
+  font-size: 32px;
+
+  font-family: 'Dosis', sans-serif;
+
+  color: #3F3D56;
+
+}
+
+#main #titulo span{
+  color: #EE24FF;
+}
+
+#main span, #main strong , #footer a{
+  font-weight: bold;
+}
+
+#main #subtitulo1, #main #subtitulo2, #footer a{
+  font-size: 15px;
+  line-height: normal;
+}
+
+#main #subtitulo1, #main #subtitulo2{
+  color: #828282;
+}
+
+#main #subtitulo1{
+  margin:0px auto 32px;
+
+  width: 540px;
+  height: 107px;
+
+  line-height: 22px;
+}
+
+#main #subtitulo1 strong{
+  color: #3F3D56;
+}
+
+#main #subtitulo2{
+  margin: 0px auto 32px;
+
+  width: 626px;
+  height: 21px;
+
+}
+
+#linha{
+  margin: 0px auto 16px;
+
+  width: 391px;
+  height: 2px;
+
+  background-color: #ECEFF2;
+
+}
+
+#footer a {
+  margin: 0px auto 0px;
+
+  line-height: 22.152px;
+  font-weight: bold;
+
+ color:  #3F3D56;
+
+}
+
+#footer a + a {
+  margin-left: 42px;
+}
+
+#footer img {
+  margin-top: 40px;
+}

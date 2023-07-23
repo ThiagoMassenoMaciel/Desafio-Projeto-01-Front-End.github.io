@@ -1,0 +1,121 @@
+
+estrutura    40'
+
+estilo   50'
+
+documentando 20'
+
+
+
+usar simbolos (🔝🔝📤↕️↕️↕️↔️ ↔️↑→↓←↔↕⇋)
+escrevi nestes comentários pai representando o nivel de parentesco entre algo dentro de uma ou mais div's
+
+🧑🏾‍💻
+🚫errei:
+coloquei todos os elementos um abaixo do outro com apenas uma div para o footer 
+e
+n consegui colocar margem top na imagem pois coloquei 
+        shorthand ( ⬅️ , ⬆️⬇️ , ➡️ ) 
+em vez de somente
+        margin-top: 64px (⬆️)
+🚫errei:
+                #img1{ 
+                        margin-top: 64px auto 32px; 
+                }
+
+🚫errei:
+                acreditei ser suficiente colocar apenas o background-color na linha para aparecer , mas o principal esqueci : colocar sua largura e altura
+
+estilização 1h 32'
+--> Problema:
+        como colocar cor diferentes de palavras dentro do mesmo paragrafo e mesma tag ?   Nomes em bold apenas 2 dos 3 estão com a cor #3F3D56 e o outro com a cor #828282  
+--> Resolução:
+        em vez destas palavras destacadas estiverem dentro da tag <strong> coloque aquela diferente dentro da tag <span>. E se caso tiver outra palavra de outro elemento que também esta dentro dessa tag , quando for estilizar : especifique a div pai de cada uma 
+
+        h1 span {uma cor }
+
+        #p1 span { outra cor }
+
+        desta maneira as cores de palavras diferentes não vão ter conflito se estiverem dentro de uma mesma tag sendo filhas de pai diferentes 
+-->Como achar as fontes pelo figma ?
+        aperta o botão modo desenvolvedor co o mouse clicado na div desejada 
+        procurar na "typograph" e ou (se caso dentro desta mesma frase tiver palavra diferente das outras terá outro campo "nome diferente")
+
+        nome ?
+        font-weight ?  700 / bold     ou          500
+        seleciona o desejado no google fontes cola o link e pronto
+
+        fontes utilizadas 
+        [Fontes Utilizadas](https://fonts.google.com/share?selection.family=Dosis:wght@500;700|Open+Sans:wght@400;700) 
+        cores (#3F3D56)---(#ECEFF2)---(#828282)---(#EE24FF)
+
+        propriedades css usadas 
+                margin : shorthand
+                color:
+                background-color:
+                font-size:
+                font-weight:
+                font-family:
+                text-align:
+                line-height:
+                width:
+                height:
+        tags html utilizadas 
+                <html>
+                <head>
+                <meta>
+                <title>
+                <link>
+                <body>
+                <div>
+                <h1>
+                <p>
+                <span>
+                <strong>
+                <br/>
+                <a>
+
+
+
+
+
+
+
+                    fazendo  40'----> descanço ----> 10' descanço  -> voltei as 21h51'  ---> Terminei as 23h35'
+                    calculo 23h02---> 
+margin de tudo 
+  width e height de tudo
+    coisas relacionadas a texto 
+      tamanho font     
+        peso da font
+          tamanho linha
+            link das fontes
+              ordem de qual elemento usa qual familia de fontes
+cores
+ajustes finais
+
+
+
+fontes
+  [Open Sans | Dosis](https://fonts.google.com/share?selection.family=Dosis:wght@500;700%7COpen%2BSans:wght@400;700)
+
+coisas usadas 
+
+
+
+-->não consegui colocar o icone dentro do title
+
+-->esqueci da linha
+-->cor no seu background em vez de usar borda
+
+-->nao consegui separa o link a da imagem rodape com ( #footer a margin: 0px auto 40px ) 
+-->então coloquei margin top da imagem 40px
+
+-->Como colocar cor diferentes em palavras diferentes de um mesmo paragrafo dentro do mesmo tipo de tag ?
+--->troca tag por outra àquela palavra diferente | ou coloca id
+
+-->Se não colocar as margens laterais = auto não vai ficar centralizada a div
+
+--> maior aprendizagem :
+  aprender a colocar cores , peso diferentes em palavras diferentes dentro de um mesmo paragrafo e mesma frase sem quebrar a linha àquelas palavras destacadas
+     dentro da tag title para aparecer na aba fig <link rel="shortcut icon" href="img/i1.svg" type="image"/>
